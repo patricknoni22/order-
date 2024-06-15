@@ -1,0 +1,55 @@
+ 
+body{
+    background-image: url(background-desktop.jpg.svg);
+    background-color: hsl(225, 100%, 94%) ;
+    place-content: center;
+    font-weight:  500, 700, 900;
+        
+}
+
+div{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 300px;
+    place-content: center;
+    background-color: aliceblue;
+}
+
+img{
+    border-radius: 9px;
+    max-width: 299px;
+    margin: 0 auto;
+}
+.icon{
+    margin-left: 1rem;
+}
+
+h2, p{
+    margin-left: 1rem;
+}
+section{
+    display: flex;
+    word-spacing: 10px;
+
+}
+
+
+a {
+    
+    display: block;
+    padding: 15px;
+    width: 200px;
+    margin: 7px auto;
+    text-align: center;
+}
+.one{
+    background-color: blueviolet;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.two{
+background-color:rgba(138, 121, 121, 0.2);
+text-decoration: none;
+}
+a:hover{ background-color: yellow;
+ color: red;}
