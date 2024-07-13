@@ -1,55 +1,129 @@
- 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-image: url(background-desktop.jpg.svg);
     background-color: hsl(225, 100%, 94%) ;
-    place-content: center;
     font-weight:  500, 700, 900;
-        
 }
 
-div{
-    margin: 0 auto;
+.div{
+    margin: 3rem auto;
     padding: 0 auto;
-    width: 300px;
+    width: 350px;
     place-content: center;
     background-color: aliceblue;
+    
 }
 
+.main{
+    margin: 1rem;
+}
 img{
     border-radius: 9px;
-    max-width: 299px;
+    max-width: 350px;
     margin: 0 auto;
-}
-.icon{
-    margin-left: 1rem;
+
 }
 
-h2, p{
-    margin-left: 1rem;
+p , h2{
+text-align: center;
+/* margin: 1.5rem auto; */
 }
-section{
+
+.per{
+    margin: 1.5rem ;
+}
+
+.info_container{
+    margin:1.1rem auto ;
+    width: 100%;
+    height: 80px;
     display: flex;
-    word-spacing: 10px;
-
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(214, 214, 214, 0.795);
+    border-radius: 10px;
 }
 
+.text{
+    
+    /* width: 60%; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0px;
+}
+
+.text img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.text .writeup{
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2rem;
+    align-items: start;
+}
+
+.text .writeup h4{
+    font-size: 1.1rem;
+}
+
+.text .writeup p{
+    font-size: 0.9rem;
+}
+
+
+.button{
+color: hsl(258, 84%, 38%);    
+    text-decoration: underline;
+}
+
+.link{
+
+    width:fit-content;
+    text-align: right;
+    text-decoration: underline;
+    margin-left: 5.5rem;
+
+}
 
 a {
     
-    display: block;
+    display:block;
     padding: 15px;
-    width: 200px;
+    width: 250px;
     margin: 7px auto;
-    text-align: center;
-}
-.one{
-    background-color: blueviolet;
-    border-radius: 7px;
+    text-align: center;         
     text-decoration: none;
+    border-radius: 7px;
+}
+
+.one{
+    background-color: hsl(258, 84%, 38%);
+    color: azure;
+    
 }
 .two{
-background-color:rgba(138, 121, 121, 0.2);
-text-decoration: none;
+    background-color:rgba(138, 121, 121, 0.2);
+
 }
-a:hover{ background-color: yellow;
- color: red;}
+a:hover{
+    background-color:whitesmoke;
+    color:blueviolet;
+
+}
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
